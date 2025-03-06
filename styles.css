@@ -29,11 +29,12 @@
     height: 200px;
     border-radius: 50%;
 }
-.sub_container .img2{
+.sub_container #gif{
     width: 70px;
     height: 70px;
     border-radius: 50%;
     margin-top: 12px;
+    display: none;
 }
 
 .sub_container #btn{
@@ -41,7 +42,8 @@
     background-color: transparent;
     color: white;
     margin-top: 12px;
-    padding: 12px 0;
-
+    padding: 12px 12px;
+    border: 2px solid red;
+    cursor: pointer;
 }
 
